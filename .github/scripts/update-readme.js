@@ -65,7 +65,6 @@ async function getContributionStats() {
     const publicRepos = repos.filter(repo => !repo.private).length;
     const privateRepos = totalRepos - publicRepos;
     
-    // Calculate total commits across all repos
     let totalCommits = 0;
     let commitsThisWeek = 0;
     const oneYearAgo = new Date();
@@ -75,7 +74,6 @@ async function getContributionStats() {
 
     for (const repo of repos.slice(0, 25)) {
       try {
-        // Get all commits from the past year
         const { data: allCommits } = await octokit.repos.listCommits({
           owner: username,
           repo: repo.name,
@@ -85,7 +83,6 @@ async function getContributionStats() {
         });
         totalCommits += allCommits.length;
 
-        // Get commits from this week
         const { data: weekCommits } = await octokit.repos.listCommits({
           owner: username,
           repo: repo.name,
@@ -164,7 +161,7 @@ function generateActivitySection(commits, stats) {
 ### ⚡ **RECENT COMMIT ACTIVITY**
 ` : '';
 
-  return `## 🔥 **REAL-TIME DEVELOPMENT ACTIVITY**
+  return `## 🔥 **RECENT ACTIVITY**
 
 ${statsDisplay}
 
@@ -181,7 +178,7 @@ ${activityLines.length > 0 ? activityLines.map(line => `- ${line}`).join('\n') :
 
 async function updateReadme() {
   try {
-    const readmePath = 'README.md';  // ← FIXED THIS SHIT!
+    const readmePath = 'README.md';
     const readmeContent = readFileSync(readmePath, 'utf8');
     
     console.log('🔍 Fetching latest GitHub activity...');
@@ -195,14 +192,14 @@ async function updateReadme() {
     
     const newActivitySection = generateActivitySection(commits, stats);
     
-    // Replace the GitHub stats section with our new activity section
+    // Replace the entire ## 🔥 **RECENT ACTIVITY** section
     let updatedContent = readmeContent.replace(
-      /## 📊 \*\*GITHUB STATS\*\*[\s\S]*?(?=## 🛠️)/g,
+      /## 🔥 \*\*RECENT ACTIVITY\*\*[\s\S]*?(?=---## 🛠️)/g,
       newActivitySection
     );
     
     writeFileSync(readmePath, updatedContent);
-    console.log('✅ README.md updated successfully with custom live stats!');
+    console.log('✅ README.md updated successfully with beautiful new UI!');
     
   } catch (error) {
     console.error('❌ Error updating README:', error);
