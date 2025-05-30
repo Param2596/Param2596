@@ -15,31 +15,27 @@
 ---
 
 ## 🎯 **WHO AM I?**
+I'm Paramjot Singh — a 2025 B.Tech CSE Graduate passionate about AI and modern web development.
 
-```javascript
-const paramjot = {
-    code: ["JavaScript", "Python", "HTML", "CSS", "Node.js"],
-    askMeAbout: ["web dev", "AI integration", "tech", "app dev", "retro design"],
-    technologies: {
-        frontEnd: {
-            js: ["React", "Vanilla JS"],
-            css: ["Bootstrap", "Flexbox", "Grid"]
-        },
-        backEnd: {
-            js: ["Node", "Express"],
-        },
-        databases: ["Supabase", "PostgreSQL"],
-        ai: ["Google Gemini API", "Prompt Engineering"],
-        devOps: ["Docker", "Vercel", "Railway"],
-        tools: ["Git", "GitHub", "VS Code", "Postman"]
-    },
-    currentFocus: "Building AI-powered applications that push boundaries",
-    funFact: "I make retro interfaces that feel like the future!"
-};
+### 🎓 **BACKGROUND**
+- 🎯 **Fresh Graduate:** B.Tech Computer Science & Engineering (2025)
+- 💻 **Core Skills:** JavaScript, Python, HTML5, CSS3, Node.js
+- 🤖 **Specialization:** AI integration, prompt engineering, web development
+- 🎨 **Design Style:** Retro-futuristic UIs with modern functionality
+
+### 💡 **WHAT DRIVES ME**
+```ascii
+┌─────────────────────────────────────────┐
+│  "Bridging academic knowledge with       │
+│   real-world AI-powered solutions"      │
+└─────────────────────────────────────────┘
 ```
 
----
+🚀 **Current Journey:** Transitioning from student to professional developer  
+⚡ **Focus Areas:** Google Gemini API, full-stack development, AI applications  
+🌟 **Mission:** Creating innovative projects that showcase modern tech potential
 
+---
 ## 🔥 **FEATURED PROJECTS**
 
 <div align="center">
