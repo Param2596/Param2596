@@ -22,7 +22,6 @@ Step back in time with a futuristic twist! **Retro Terminal** is a sleek, 90s-in
 *   **Tech Stack:** `HTML`, `CSS`, `JavaScript`, `Node.js`, `Express.js`, `Google Gemini API`, `Serverless Functions`, `Vercel`.
 
 [![Retro Terminal Screenshot](https://gemini-app-lake.vercel.app/preview.png)](https://gemini-app-lake.vercel.app/)
-*(This preview image is linked from your project, ensure `preview.png` is a good representation!)*
 
 ---
 
@@ -38,6 +37,8 @@ Step back in time with a futuristic twist! **Retro Terminal** is a sleek, 90s-in
     *   Secure JWT authentication.
     *   Containerized with Docker for easy deployment.
 *   **Tech Stack:** `Node.js`, `Express.js`, `React.js`, `Google Gemini API`, `Supabase (PostgreSQL)`, `Puppeteer`, `JWT`, `Docker`.
+*   ![image](https://github.com/user-attachments/assets/d73eae8d-fe96-455a-b924-021799955c11)
+
 
 ---
 
@@ -45,11 +46,11 @@ Step back in time with a futuristic twist! **Retro Terminal** is a sleek, 90s-in
 
 Here are some of the technologies and tools I enjoy working with:
 
-*   **Languages:** JavaScript, Python, HTML, CSS, [Add others]
-*   **Frameworks/Libraries:** Node.js, Express.js, React, [Add others]
-*   **AI/ML:** Google Gemini API, Custom Prompt Engineering, [Add others]
-*   **Databases:** [Add any, e.g., MongoDB, PostgreSQL]
-*   **Tools & Platforms:** Git, GitHub, Vercel, Docker, [Add others]
+*   **Languages:** JavaScript, Python, HTML, CSS
+*   **Frameworks/Libraries:** Node.js, Express.js, React
+*   **AI/ML:** Google Gemini API, Custom Prompt Engineering 
+*   **Databases:** Supabase
+*   **Tools & Platforms:** Git, GitHub, Vercel, Docker, Railway
 
 ---
 
@@ -57,8 +58,8 @@ Here are some of the technologies and tools I enjoy working with:
 
 I'm always open to collaborating on exciting projects or just chatting about tech!
 
-*   **LinkedIn:** [Your LinkedIn Profile URL]
-*   **Twitter / X:** [Your Twitter Profile URL]
-*   **Portfolio (if different):** [Your Portfolio URL]
+*   **LinkedIn:** https://www.linkedin.com/in/paramjot-singh27/
+*   **Twitter / X:** https://x.com/singh_paramjot4
+*   **LeetCode:**https://leetcode.com/u/ParamjotSingh/
 
 Thanks for stopping by!
