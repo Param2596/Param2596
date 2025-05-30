@@ -1,5 +1,5 @@
-const { Octokit } = require('@octokit/rest');
-const fs = require('fs');
+import { Octokit } from '@octokit/rest';
+import { readFileSync, writeFileSync } from 'fs';
 
 const octokit = new Octokit({
   auth: process.env.GITHUB_TOKEN,
@@ -21,7 +21,7 @@ async function getRecentActivity() {
     const oneWeekAgo = new Date();
     oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
 
-    for (const repo of repos.slice(0, 10)) { // Check top 10 most recent repos
+    for (const repo of repos.slice(0, 10)) {
       try {
         const { data: commits } = await octokit.repos.listCommits({
           owner: username,
@@ -44,7 +44,6 @@ async function getRecentActivity() {
       }
     }
 
-    // Sort by date and get top 5
     return recentCommits
       .sort((a, b) => b.date - a.date)
       .slice(0, 5);
@@ -67,8 +66,6 @@ async function getContributionStats() {
 
     const totalRepos = repos.length;
     const publicRepos = repos.filter(repo => !repo.private).length;
-    
-    // Calculate total stars
     const totalStars = repos.reduce((sum, repo) => sum + repo.stargazers_count, 0);
     
     return {
@@ -115,7 +112,7 @@ ${statsSection}
 async function updateReadme() {
   try {
     const readmePath = 'PROFILE_README.md';
-    const readmeContent = fs.readFileSync(readmePath, 'utf8');
+    const readmeContent = readFileSync(readmePath, 'utf8');
     
     const [commits, stats] = await Promise.all([
       getRecentActivity(),
@@ -124,13 +121,13 @@ async function updateReadme() {
     
     const newActivitySection = generateActivitySection(commits, stats);
     
-    // Replace the old GitHub stats section with our new activity section
+    // Replace all GitHub stats sections with our new activity section
     const updatedContent = readmeContent.replace(
-      /## 📊 \*\*GITHUB STATS\*\*[\s\S]*?(?=## 🛠️|\n## |$)/g,
+      /## 📊 \*\*GITHUB STATS\*\*[\s\S]*?(?=## 🛠️)/g,
       newActivitySection
     );
     
-    fs.writeFileSync(readmePath, updatedContent);
+    writeFileSync(readmePath, updatedContent);
     console.log('✅ README updated successfully!');
     
   } catch (error) {
