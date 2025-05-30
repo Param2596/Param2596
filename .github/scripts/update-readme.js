@@ -111,7 +111,7 @@ ${statsSection}
 
 async function updateReadme() {
   try {
-    const readmePath = 'PROFILE_README.md';
+    const readmePath = 'README.md';
     const readmeContent = readFileSync(readmePath, 'utf8');
     
     const [commits, stats] = await Promise.all([
