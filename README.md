@@ -79,20 +79,26 @@ I'm Paramjot Singh — a 2025 B.Tech CSE Graduate passionate about AI and modern
 
 ---
 
-## 📊 **GITHUB STATS**
+## 🔥 **RECENT ACTIVITY**
 
-<div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=Param2596&show_icons=true&count_private=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&cache_seconds=1800" height="192px"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Param2596&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866" height="192px"/>
-</div>
+### ⚡ **LATEST COMMITS**
+- 🚀 **[Param2596](https://github.com/Param2596/Param2596)** • Update README.md • *May 30*
+- 🚀 **[Param2596](https://github.com/Param2596/Param2596)** • Update update-readme.js • *May 30*
+- 🚀 **[Param2596](https://github.com/Param2596/Param2596)** • Update main.yml • *May 30*
+- 🚀 **[Param2596](https://github.com/Param2596/Param2596)** • Update main.yml • *May 30*
+- 🚀 **[Param2596](https://github.com/Param2596/Param2596)** • Update update-readme.js • *May 30*
 
-<div align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Param2596&theme=radical&hide_border=true&background=0D1117&stroke=0000&ring=F85D7F&fire=F8D866&currStreakLabel=F8D866" alt="GitHub Streak"/>
-</div>
 
----
+### 📈 **LIVE STATS**
+```ascii
+┌─────────────────────────────────────────┐
+│  📊 9 Total Repos   ⭐ 0 Stars    │
+│  👥 0 Followers    📂 9 Public     │
+└─────────────────────────────────────────┘
+```
 
-## 🛠️ **TECH STACK**
+
+---## 🛠️ **TECH STACK**
 
 <div align="center">
 
