@@ -52,38 +52,52 @@ async function getRecentActivity() {
   }
 }
 
-async function getExactCommitCount(username, repo) {
+async function getAllCommitsForRepo(username, repoName) {
   let totalCommits = 0;
   let page = 1;
   const perPage = 100;
   
+  console.log(`🔍 Getting ALL commits for ${repoName}...`);
+  
   try {
     while (true) {
+      console.log(`   📄 Page ${page}...`);
+      
       const { data: commits } = await octokit.repos.listCommits({
         owner: username,
-        repo: repo.name,
+        repo: repoName,
         author: username,
         per_page: perPage,
         page: page,
       });
       
-      if (commits.length === 0) break;
+      if (commits.length === 0) {
+        console.log(`   ✅ ${repoName}: Found ${totalCommits} total commits`);
+        break;
+      }
       
       totalCommits += commits.length;
+      console.log(`   📊 Page ${page}: +${commits.length} commits (total: ${totalCommits})`);
       
       // If we got less than perPage, we've reached the end
-      if (commits.length < perPage) break;
+      if (commits.length < perPage) {
+        console.log(`   ✅ ${repoName}: Found ${totalCommits} total commits (last page)`);
+        break;
+      }
       
       page++;
       
-      // Safety limit to avoid infinite loops
-      if (page > 50) {
-        console.log(`Reached safety limit for ${repo.name}, stopping at ${totalCommits} commits`);
+      // Safety limit - but much higher
+      if (page > 200) {
+        console.log(`   ⚠️ Reached safety limit for ${repoName}, stopping at ${totalCommits} commits`);
         break;
       }
+      
+      // Small delay to avoid rate limiting
+      await new Promise(resolve => setTimeout(resolve, 100));
     }
   } catch (error) {
-    console.log(`Error counting commits for ${repo.name}: ${error.message}`);
+    console.log(`   ❌ Error counting commits for ${repoName}: ${error.message}`);
   }
   
   return totalCommits;
@@ -93,6 +107,7 @@ async function getContributionStats() {
   const username = process.env.GITHUB_USERNAME;
   
   try {
+    console.log('🔍 Getting all repositories...');
     const { data: repos } = await octokit.repos.listForUser({
       username,
       per_page: 100,
@@ -102,19 +117,22 @@ async function getContributionStats() {
     const publicRepos = repos.filter(repo => !repo.private).length;
     const privateRepos = totalRepos - publicRepos;
     
+    console.log(`📊 Found ${totalRepos} repositories (${publicRepos} public, ${privateRepos} private)`);
+    
     // Calculate EXACT total commits across ALL repos
     let totalCommits = 0;
     let commitsThisWeek = 0;
     const oneWeekAgo = new Date();
     oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
 
-    console.log(`📊 Counting exact commits across ${totalRepos} repositories...`);
+    console.log(`🔥 Starting EXACT commit count across ALL repositories...`);
 
-    for (const repo of repos) {
-      console.log(`🔍 Checking ${repo.name}...`);
+    for (let i = 0; i < repos.length; i++) {
+      const repo = repos[i];
+      console.log(`\n📁 [${i + 1}/${totalRepos}] Processing ${repo.name}...`);
       
-      // Get exact total commits for this repo
-      const repoCommits = await getExactCommitCount(username, repo);
+      // Get EXACT total commits for this repo
+      const repoCommits = await getAllCommitsForRepo(username, repo.name);
       totalCommits += repoCommits;
       
       // Get commits from this week
@@ -127,14 +145,16 @@ async function getContributionStats() {
           per_page: 100,
         });
         commitsThisWeek += weekCommits.length;
+        console.log(`   📅 This week: ${weekCommits.length} commits`);
       } catch (error) {
-        console.log(`Skipping week commits for ${repo.name}: ${error.message}`);
+        console.log(`   ⚠️ Skipping week commits for ${repo.name}: ${error.message}`);
       }
       
-      console.log(`✅ ${repo.name}: ${repoCommits} commits`);
+      console.log(`   ✅ Running total: ${totalCommits} commits`);
     }
     
-    console.log(`🎯 EXACT TOTAL: ${totalCommits} commits across all repos`);
+    console.log(`\n🎯 FINAL EXACT TOTAL: ${totalCommits} commits across all ${totalRepos} repos`);
+    console.log(`⚡ This week: ${commitsThisWeek} commits`);
     
     return {
       totalRepos,
@@ -228,7 +248,7 @@ async function updateReadme() {
     ]);
     
     console.log(`📊 Found ${commits.length} recent commits`);
-    console.log(`📈 EXACT Stats: ${stats?.totalRepos} repos, ${stats?.totalCommits} total commits`);
+    console.log(`📈 EXACT Stats: ${stats?.totalRepos} repos, ${stats?.totalCommits} EXACT commits`);
     
     const newActivitySection = generateActivitySection(commits, stats);
     
@@ -239,7 +259,7 @@ async function updateReadme() {
     );
     
     writeFileSync(readmePath, updatedContent);
-    console.log('✅ README.md updated with EXACT commit counts!');
+    console.log('✅ README.md updated with EXACT commit counts - NO MORE BULLSHIT!');
     
   } catch (error) {
     console.error('❌ Error updating README:', error);
