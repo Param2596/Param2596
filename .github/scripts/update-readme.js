@@ -181,7 +181,7 @@ ${activityLines.length > 0 ? activityLines.map(line => `- ${line}`).join('\n') :
 
 async function updateReadme() {
   try {
-    const readmePath = 'PROFILE_README.md';
+    const readmePath = 'README.md';
     const readmeContent = readFileSync(readmePath, 'utf8');
     
     console.log('🔍 Fetching latest GitHub activity...');
