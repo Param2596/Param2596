@@ -19,7 +19,7 @@ async function getRecentActivity() {
     const oneWeekAgo = new Date();
     oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
 
-    for (const repo of repos.slice(0, 10)) {
+    for (const repo of repos.slice(0, 15)) {
       try {
         const { data: commits } = await octokit.repos.listCommits({
           owner: username,
@@ -32,7 +32,7 @@ async function getRecentActivity() {
         commits.forEach(commit => {
           recentCommits.push({
             repo: repo.name,
-            message: commit.commit.message.split('\n')[0].substring(0, 50),
+            message: commit.commit.message.split('\n')[0].substring(0, 60),
             date: new Date(commit.commit.author.date),
             url: commit.html_url,
           });
@@ -44,7 +44,7 @@ async function getRecentActivity() {
 
     return recentCommits
       .sort((a, b) => b.date - a.date)
-      .slice(0, 5);
+      .slice(0, 8);
 
   } catch (error) {
     console.error('Error fetching activity:', error);
@@ -56,7 +56,6 @@ async function getContributionStats() {
   const username = process.env.GITHUB_USERNAME;
   
   try {
-    const { data: user } = await octokit.users.getByUsername({ username });
     const { data: repos } = await octokit.repos.listForUser({
       username,
       per_page: 100,
@@ -64,13 +63,48 @@ async function getContributionStats() {
 
     const totalRepos = repos.length;
     const publicRepos = repos.filter(repo => !repo.private).length;
-    const totalStars = repos.reduce((sum, repo) => sum + repo.stargazers_count, 0);
+    const privateRepos = totalRepos - publicRepos;
+    
+    // Calculate total commits across all repos
+    let totalCommits = 0;
+    let commitsThisWeek = 0;
+    const oneYearAgo = new Date();
+    const oneWeekAgo = new Date();
+    oneYearAgo.setFullYear(oneYearAgo.getFullYear() - 1);
+    oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
+
+    for (const repo of repos.slice(0, 25)) {
+      try {
+        // Get all commits from the past year
+        const { data: allCommits } = await octokit.repos.listCommits({
+          owner: username,
+          repo: repo.name,
+          author: username,
+          since: oneYearAgo.toISOString(),
+          per_page: 100,
+        });
+        totalCommits += allCommits.length;
+
+        // Get commits from this week
+        const { data: weekCommits } = await octokit.repos.listCommits({
+          owner: username,
+          repo: repo.name,
+          author: username,
+          since: oneWeekAgo.toISOString(),
+          per_page: 100,
+        });
+        commitsThisWeek += weekCommits.length;
+      } catch (error) {
+        console.log(`Skipping commit count for ${repo.name}: ${error.message}`);
+      }
+    }
     
     return {
       totalRepos,
       publicRepos,
-      totalStars,
-      followers: user.followers,
+      privateRepos,
+      totalCommits,
+      commitsThisWeek,
     };
   } catch (error) {
     console.error('Error fetching stats:', error);
@@ -79,54 +113,96 @@ async function getContributionStats() {
 }
 
 function generateActivitySection(commits, stats) {
-  const activityLines = commits.map(commit => {
-    const date = commit.date.toLocaleDateString('en-US', { 
-      month: 'short', 
-      day: 'numeric' 
-    });
-    return `- 🚀 **[${commit.repo}](https://github.com/Param2596/${commit.repo})** • ${commit.message} • *${date}*`;
+  const currentDate = new Date().toLocaleDateString('en-US', { 
+    weekday: 'long',
+    year: 'numeric', 
+    month: 'long', 
+    day: 'numeric' 
   });
 
-  const statsSection = stats ? `
-### 📈 **LIVE STATS**
+  const activityLines = commits.map((commit, index) => {
+    const date = commit.date.toLocaleDateString('en-US', { 
+      month: 'short', 
+      day: 'numeric',
+      hour: '2-digit',
+      minute: '2-digit'
+    });
+    const emoji = ['🚀', '⚡', '🔥', '💎', '✨', '🎯', '🌟', '💫'][index] || '🚀';
+    return `${emoji} **[${commit.repo}](https://github.com/Param2596/${commit.repo})** • ${commit.message} • *${date}*`;
+  });
+
+  const statsDisplay = stats ? `
+<div align="center">
+
+## 📊 **LIVE DEVELOPMENT STATS**
+*Last Updated: ${currentDate}*
+
+### 🔢 **CODE METRICS**
+
 \`\`\`ascii
-┌─────────────────────────────────────────┐
-│  📊 ${stats.totalRepos} Total Repos   ⭐ ${stats.totalStars} Stars    │
-│  👥 ${stats.followers} Followers    📂 ${stats.publicRepos} Public     │
-└─────────────────────────────────────────┘
+╔══════════════════════════════════════════════════════════════╗
+║                    📈 REPOSITORY OVERVIEW                    ║
+╠══════════════════════════════════════════════════════════════╣
+║                                                              ║
+║   📊 Total Repositories: ${String(stats.totalRepos).padStart(3)}                          ║
+║   🌍 Public Projects:    ${String(stats.publicRepos).padStart(3)}                          ║
+║   🔒 Private Projects:   ${String(stats.privateRepos).padStart(3)}                          ║
+║                                                              ║
+╠══════════════════════════════════════════════════════════════╣
+║                    💻 COMMIT ACTIVITY                        ║
+╠══════════════════════════════════════════════════════════════╣
+║                                                              ║
+║   🔥 Total Commits:      ${String(stats.totalCommits).padStart(4)}+                        ║
+║   ⚡ This Week:          ${String(stats.commitsThisWeek).padStart(3)}                           ║
+║   📅 Daily Average:      ${String(Math.round(stats.totalCommits / 365)).padStart(3)}                           ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
 \`\`\`
+
+</div>
+
+### ⚡ **RECENT COMMIT ACTIVITY**
 ` : '';
 
-  return `## 🔥 **RECENT ACTIVITY**
+  return `## 🔥 **REAL-TIME DEVELOPMENT ACTIVITY**
 
-### ⚡ **LATEST COMMITS**
-${activityLines.length > 0 ? activityLines.join('\n') : '- 🛠️ Building awesome projects...'}
+${statsDisplay}
 
-${statsSection}
+${activityLines.length > 0 ? activityLines.map(line => `- ${line}`).join('\n') : '- 🛠️ Building awesome projects...'}
+
+<div align="center">
+
+*🤖 Auto-updated by GitHub Actions • Next update in 24 hours*
+
+</div>
 
 ---`;
 }
 
 async function updateReadme() {
   try {
-    const readmePath = 'README.md';
+    const readmePath = 'PROFILE_README.md';
     const readmeContent = readFileSync(readmePath, 'utf8');
     
+    console.log('🔍 Fetching latest GitHub activity...');
     const [commits, stats] = await Promise.all([
       getRecentActivity(),
       getContributionStats()
     ]);
     
+    console.log(`📊 Found ${commits.length} recent commits`);
+    console.log(`📈 Stats: ${stats?.totalRepos} repos, ${stats?.totalCommits}+ commits`);
+    
     const newActivitySection = generateActivitySection(commits, stats);
     
-    // Replace duplicate GitHub stats sections with our new activity section
-    const updatedContent = readmeContent.replace(
+    // Replace both duplicate GitHub stats sections with our new activity section
+    let updatedContent = readmeContent.replace(
       /## 📊 \*\*GITHUB STATS\*\*[\s\S]*?(?=## 🛠️)/g,
       newActivitySection
     );
     
     writeFileSync(readmePath, updatedContent);
-    console.log('✅ README updated successfully!');
+    console.log('✅ README updated successfully with custom live stats!');
     
   } catch (error) {
     console.error('❌ Error updating README:', error);
