@@ -81,24 +81,55 @@ I'm Paramjot Singh — a 2025 B.Tech CSE Graduate passionate about AI and modern
 
 ## 🔥 **RECENT ACTIVITY**
 
-### ⚡ **LATEST COMMITS**
-- 🚀 **[Param2596](https://github.com/Param2596/Param2596)** • Update README.md • *May 30*
-- 🚀 **[Param2596](https://github.com/Param2596/Param2596)** • Update update-readme.js • *May 30*
-- 🚀 **[Param2596](https://github.com/Param2596/Param2596)** • Update main.yml • *May 30*
-- 🚀 **[Param2596](https://github.com/Param2596/Param2596)** • Update main.yml • *May 30*
-- 🚀 **[Param2596](https://github.com/Param2596/Param2596)** • Update update-readme.js • *May 30*
 
+<div align="center">
 
-### 📈 **LIVE STATS**
+## 📊 **LIVE DEVELOPMENT STATS**
+*Last Updated: Friday, May 30, 2025*
+
+### 🔢 **CODE METRICS**
+
 ```ascii
-┌─────────────────────────────────────────┐
-│  📊 9 Total Repos   ⭐ 0 Stars    │
-│  👥 0 Followers    📂 9 Public     │
-└─────────────────────────────────────────┘
+╔══════════════════════════════════════════════════════════════╗
+║                    📈 REPOSITORY OVERVIEW                    ║
+╠══════════════════════════════════════════════════════════════╣
+║                                                              ║
+║   📊 Total Repositories:   9                          ║
+║   🌍 Public Projects:      9                          ║
+║   🔒 Private Projects:     0                          ║
+║                                                              ║
+╠══════════════════════════════════════════════════════════════╣
+║                    💻 COMMIT ACTIVITY                        ║
+╠══════════════════════════════════════════════════════════════╣
+║                                                              ║
+║   🔥 Total Commits:        39+                        ║
+║   ⚡ This Week:           29                           ║
+║   📅 Daily Average:        0                           ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
 ```
 
+</div>
 
----## 🛠️ **TECH STACK**
+### ⚡ **RECENT COMMIT ACTIVITY**
+
+
+- 🚀 **[Param2596](https://github.com/Param2596/Param2596)** • Update update-readme.js • *May 30, 12:14 PM*
+- ⚡ **[Param2596](https://github.com/Param2596/Param2596)** • Update update-readme.js • *May 30, 12:10 PM*
+- 🔥 **[Param2596](https://github.com/Param2596/Param2596)** • Update update-readme.js • *May 30, 12:06 PM*
+- 💎 **[Param2596](https://github.com/Param2596/Param2596)** • Update update-readme.js • *May 30, 12:04 PM*
+- ✨ **[Param2596](https://github.com/Param2596/Param2596)** • Update README.md • *May 30, 11:52 AM*
+- 🎯 **[Param2596](https://github.com/Param2596/Param2596)** • Update update-readme.js • *May 30, 11:52 AM*
+- 🌟 **[Param2596](https://github.com/Param2596/Param2596)** • Update main.yml • *May 30, 11:51 AM*
+- 💫 **[Param2596](https://github.com/Param2596/Param2596)** • Update main.yml • *May 30, 11:48 AM*
+
+<div align="center">
+
+*🤖 Auto-updated by GitHub Actions • Next update in 24 hours*
+
+</div>
+
+------## 🛠️ **TECH STACK**
 
 <div align="center">
 
