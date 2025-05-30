@@ -181,7 +181,7 @@ ${activityLines.length > 0 ? activityLines.map(line => `- ${line}`).join('\n') :
 
 async function updateReadme() {
   try {
-    const readmePath = 'README.md';
+    const readmePath = 'README.md';  // ← FIXED THIS SHIT!
     const readmeContent = readFileSync(readmePath, 'utf8');
     
     console.log('🔍 Fetching latest GitHub activity...');
@@ -195,14 +195,14 @@ async function updateReadme() {
     
     const newActivitySection = generateActivitySection(commits, stats);
     
-    // Replace both duplicate GitHub stats sections with our new activity section
+    // Replace the GitHub stats section with our new activity section
     let updatedContent = readmeContent.replace(
       /## 📊 \*\*GITHUB STATS\*\*[\s\S]*?(?=## 🛠️)/g,
       newActivitySection
     );
     
     writeFileSync(readmePath, updatedContent);
-    console.log('✅ README updated successfully with custom live stats!');
+    console.log('✅ README.md updated successfully with custom live stats!');
     
   } catch (error) {
     console.error('❌ Error updating README:', error);
