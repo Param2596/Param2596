@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 PARAMJOT SINGH
+#  PARAMJOT SINGH
 ### *Where Code Meets Innovation*
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&multiline=true&width=800&height=100&lines=Developer;AI+Enthusiast;Building+the+Future%2C+One+Commit+at+a+Time" alt="Typing SVG" />
