@@ -1,4 +1,4 @@
-# Hey there! 👋 I'm [Your Name/Username]!
+# Hey there! 👋 I'm Paramjot!
 
 Welcome to my corner of the coding universe! I'm passionate about building innovative and engaging projects. Below are a couple of my recent adventures in code:
 
