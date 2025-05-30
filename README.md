@@ -79,18 +79,16 @@ I'm Paramjot Singh — a 2025 B.Tech CSE Graduate passionate about AI and modern
 
 ---
 
-## 🔥 **RECENT ACTIVITY**
+## 📊 **GITHUB STATS**
 
-### ⚡ **LATEST COMMITS**
-- 🛠️ Building awesome projects...
+<div align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=Param2596&show_icons=true&count_private=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&cache_seconds=1800" height="192px"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Param2596&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866" height="192px"/>
+</div>
 
-### 📈 **LIVE STATS**
-```ascii
-┌─────────────────────────────────────────┐
-│  📊 Loading...   ⭐ Loading...         │
-│  👥 Loading...    📂 Loading...         │
-└─────────────────────────────────────────┘
-```
+<div align="center">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Param2596&theme=radical&hide_border=true&background=0D1117&stroke=0000&ring=F85D7F&fire=F8D866&currStreakLabel=F8D866" alt="GitHub Streak"/>
+</div>
 
 ---
 
