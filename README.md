@@ -5,7 +5,7 @@
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&multiline=true&width=800&height=100&lines=Full-Stack+Developer;AI+Enthusiast;Open+Source+Contributor;Building+the+Future%2C+One+Commit+at+a+Time" alt="Typing SVG" />
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://gemini-app-lake.vercel.app/)
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/paramjot-singh27/)
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/singh_paramjot4)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/ParamjotSingh/)
@@ -50,6 +50,8 @@ const paramjot = {
 
 <img src="https://gemini-app-lake.vercel.app/preview.png" width="600" alt="Retro Terminal">
 
+</div>
+
 **🎮 EXPERIENCE THE NOSTALGIA**
 - 🖥️ **Authentic CRT Terminal** with 5 customizable themes
 - ⚡ **Google Gemini AI** integration for intelligent conversations
@@ -62,11 +64,15 @@ const paramjot = {
 
 ---
 
+<div align="center">
+
 ### 💼 **FACTURAI** | *AI-Powered Invoice Revolution*
 [![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-6C5CE7?style=for-the-badge)](https://facturai-ten.vercel.app/)
 [![Code](https://img.shields.io/badge/💻_Source_Code-A29BFE?style=for-the-badge)](https://github.com/paramjot/facturai)
 
 <img src="https://github.com/user-attachments/assets/d73eae8d-fe96-455a-b924-021799955c11" width="600" alt="Facturai">
+
+</div>
 
 **💡 INTELLIGENT INVOICE GENERATION**
 - 🤖 **AI-Powered** invoice creation with Google Gemini
@@ -77,19 +83,17 @@ const paramjot = {
 
 **⚡ TECH ARSENAL:** `React.js` `Node.js` `Express.js` `Supabase` `Puppeteer` `JWT` `Docker`
 
-</div>
-
 ---
 
 ## 📊 **GITHUB STATS**
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=paramjotsingh&show_icons=true&count_private=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866" height="192px"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=paramjotsingh&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866" height="192px"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Param2596&show_icons=true&count_private=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866" height="192px"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Param2596&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866" height="192px"/>
 </div>
 
 <div align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=paramjotsingh&theme=radical&hide_border=true&background=0D1117&stroke=0000&ring=F85D7F&fire=F8D866&currStreakLabel=F8D866" alt="GitHub Streak"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Param2596&theme=radical&hide_border=true&background=0D1117&stroke=0000&ring=F85D7F&fire=F8D866&currStreakLabel=F8D866" alt="GitHub Streak"/>
 </div>
 
 ---
@@ -126,10 +130,10 @@ const paramjot = {
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=paramjotsingh&theme=radical&no-frame=true&no-bg=true&margin-w=4&row=1)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=Param2596&theme=radical&no-frame=true&no-bg=true&margin-w=4&row=1)](https://github.com/ryo-ma/github-profile-trophy)
 
 ### 📈 **Activity Graph**
-[![Paramjot's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=paramjotsingh&theme=react-dark&bg_color=0D1117&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Paramjot's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Param2596&theme=react-dark&bg_color=0D1117&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </div>
 
@@ -172,7 +176,7 @@ Goals 2025:
 
 ### 💡 **"Code is poetry written in logic"**
 
-![Visitor Count](https://profile-counter.glitch.me/paramjotsingh/count.svg)
+![Visitor Count](https://profile-counter.glitch.me/Param2596/count.svg)
 
 </div>
 
