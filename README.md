@@ -1,53 +1,64 @@
-# ⚡ Paramjot Singh — Full Stack Dev & AI Crafter 👨‍💻
+# Hey there! 👋 I'm [Your Name/Username]!
 
-> Building intuitive tools with machine learning, clean code, and a terminal-loving soul.  
-> I make software feel less like software — and more like *magic*.
-
----
-
-## 🚀 Projects That Pack a Punch
-
-- 🔥 [**FacturAi**](https://facturai.vercel.app)  
-  *AI-powered invoice generator with natural language input, PDF export, and full-stack sync.*
-
-- 🖥️ [**Retro Terminal AI Chatbot**](https://your-retro-app-link.vercel.app)  
-  *Frontend-only terminal-style chatbot with dynamic theming, persona support, and zero backend BS.*
+Welcome to my corner of the coding universe! I'm passionate about building innovative and engaging projects. Below are a couple of my recent adventures in code:
 
 ---
 
-## 🛠️ Tech Arsenal
+## 🚀 Project Spotlight
 
-`React` • `Node.js` • `Supabase` • `JavaScript` • `HTML/CSS`  
-`AI` • `LLMs` • `NLP` • `Machine Learning` • `C++` • `Python`
+### 1.  Retro Terminal 📟✨
 
----
+Step back in time with a futuristic twist! **Retro Terminal** is a sleek, 90s-inspired terminal interface for interacting with the Google Gemini AI model. It's where nostalgia meets next-gen intelligence.
 
-## 📊 GitHub Stats
+*   **Live Demo:** [Experience Retro Terminal!](https://gemini-app-lake.vercel.app/)
+*   **Peek into the Past (and Future!):**
+    *   Authentic CRT-style terminal design with customizable themes (Amber, Green, Blue, White, Red).
+    *   Engaging typewriter-style animated text.
+    *   Full Markdown rendering for beautifully formatted AI responses.
+    *   File upload capabilities leveraging Gemini Vision.
+    *   Secure Gemini API key handling via serverless functions.
+    *   Fully responsive: looks great on desktop and mobile!
+    *   Customizable system prompts to shape your AI's personality.
+*   **Tech Stack:** `HTML`, `CSS`, `JavaScript`, `Node.js`, `Express.js`, `Google Gemini API`, `Serverless Functions`, `Vercel`.
 
-![Paramjot's GitHub Stats](https://github-readme-stats.vercel.app/api?username=paramjot&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=paramjot&layout=compact&theme=tokyonight&hide_border=true)
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=paramjot&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
-
----
-
-## 🧠 Currently Exploring
-
-- Prompt Engineering for LLMs  
-- Full-stack AI SaaS development  
-- Cyberpunk UI/UX, because vibes matter
+[![Retro Terminal Screenshot](https://gemini-app-lake.vercel.app/preview.png)](https://gemini-app-lake.vercel.app/)
+*(This preview image is linked from your project, ensure `preview.png` is a good representation!)*
 
 ---
 
-## 📡 Connect With Me
+### 2. Facturai 🧾💡
 
-[🌐 Portfolio](https://your-portfolio-link)  
-[🐙 GitHub](https://github.com/paramjot)  
-[🔗 LinkedIn](https://www.linkedin.com/in/your-linkedin/)  
-[✉️ Email](mailto:your@email.com)
+**Facturai** is an AI-Powered Invoice Generator. It leverages Google Gemini for intelligent invoice creation, Supabase (PostgreSQL) for data persistence, and Puppeteer for robust PDF generation. Features secure JWT authentication and is fully containerized with Docker for seamless deployment.
+
+*   **Live Demo:** [Explore Facturai!](https://facturai-ten.vercel.app/)
+*   **Key Highlights:**
+    *   Intelligent invoice creation powered by Google Gemini.
+    *   Secure data storage with Supabase (PostgreSQL).
+    *   Robust PDF generation using Puppeteer.
+    *   Secure JWT authentication.
+    *   Containerized with Docker for easy deployment.
+*   **Tech Stack:** `Node.js`, `Express.js`, `React.js`, `Google Gemini API`, `Supabase (PostgreSQL)`, `Puppeteer`, `JWT`, `Docker`.
 
 ---
 
-### 👾 "Software is just spellcraft we haven’t admitted to yet."
+## 🛠️ My Tech Toolkit
 
+Here are some of the technologies and tools I enjoy working with:
+
+*   **Languages:** JavaScript, Python, HTML, CSS, [Add others]
+*   **Frameworks/Libraries:** Node.js, Express.js, React, [Add others]
+*   **AI/ML:** Google Gemini API, Custom Prompt Engineering, [Add others]
+*   **Databases:** [Add any, e.g., MongoDB, PostgreSQL]
+*   **Tools & Platforms:** Git, GitHub, Vercel, Docker, [Add others]
+
+---
+
+## 📫 Let's Connect!
+
+I'm always open to collaborating on exciting projects or just chatting about tech!
+
+*   **LinkedIn:** [Your LinkedIn Profile URL]
+*   **Twitter / X:** [Your Twitter Profile URL]
+*   **Portfolio (if different):** [Your Portfolio URL]
+
+Thanks for stopping by!
