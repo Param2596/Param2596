@@ -9,14 +9,12 @@ async function getRecentActivity() {
   const username = process.env.GITHUB_USERNAME;
   
   try {
-    // Get user's repositories
     const { data: repos } = await octokit.repos.listForUser({
       username,
       sort: 'updated',
       per_page: 100,
     });
 
-    // Get recent commits across all repos
     const recentCommits = [];
     const oneWeekAgo = new Date();
     oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
@@ -121,7 +119,7 @@ async function updateReadme() {
     
     const newActivitySection = generateActivitySection(commits, stats);
     
-    // Replace all GitHub stats sections with our new activity section
+    // Replace duplicate GitHub stats sections with our new activity section
     const updatedContent = readmeContent.replace(
       /## 📊 \*\*GITHUB STATS\*\*[\s\S]*?(?=## 🛠️)/g,
       newActivitySection
