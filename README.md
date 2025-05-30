@@ -3,7 +3,7 @@
 # 🚀 PARAMJOT SINGH
 ### *Where Code Meets Innovation*
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&multiline=true&width=800&height=100&lines=Full-Stack+Developer;AI+Enthusiast;Open+Source+Contributor;Building+the+Future%2C+One+Commit+at+a+Time" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&multiline=true&width=800&height=100&lines=Developer;AI+Enthusiast;Building+the+Future%2C+One+Commit+at+a+Time" alt="Typing SVG" />
 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/paramjot-singh27/)
@@ -46,7 +46,6 @@ const paramjot = {
 
 ### 🚀 **RETRO TERMINAL** | *Where 90s Meets AI*
 [![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-FF6B6B?style=for-the-badge)](https://gemini-app-lake.vercel.app/)
-[![Code](https://img.shields.io/badge/💻_Source_Code-4ECDC4?style=for-the-badge)](https://github.com/paramjot/retro-terminal)
 
 <img src="https://gemini-app-lake.vercel.app/preview.png" width="600" alt="Retro Terminal">
 
@@ -68,7 +67,6 @@ const paramjot = {
 
 ### 💼 **FACTURAI** | *AI-Powered Invoice Revolution*
 [![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-6C5CE7?style=for-the-badge)](https://facturai-ten.vercel.app/)
-[![Code](https://img.shields.io/badge/💻_Source_Code-A29BFE?style=for-the-badge)](https://github.com/paramjot/facturai)
 
 <img src="https://github.com/user-attachments/assets/d73eae8d-fe96-455a-b924-021799955c11" width="600" alt="Facturai">
 
@@ -126,14 +124,12 @@ const paramjot = {
 
 ---
 
-## 🏆 **ACHIEVEMENTS & METRICS**
+## 🏆 **ACHIEVEMENTS **
 
 <div align="center">
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=Param2596&theme=radical&no-frame=true&no-bg=true&margin-w=4&row=1)](https://github.com/ryo-ma/github-profile-trophy)
 
-### 📈 **Activity Graph**
-[![Paramjot's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Param2596&theme=react-dark&bg_color=0D1117&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </div>
 
