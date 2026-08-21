@@ -82,6 +82,37 @@ I'm Paramjot Singh — a 2025 B.Tech CSE Graduate passionate about AI and modern
 ## 🔥 **RECENT ACTIVITY**
 
 
+<div align="center">
+
+## 📊 **LIVE DEVELOPMENT STATS**
+*Last Updated: Friday, August 21, 2026*
+
+### 🔢 **CODE METRICS**
+
+```ascii
+╔══════════════════════════════════════════════════════════════╗
+║                    📈 REPOSITORY OVERVIEW                    ║
+╠══════════════════════════════════════════════════════════════╣
+║                                                              ║
+║   📊 Total Repositories:   9                          ║
+║   🌍 Public Projects:      9                          ║
+║   🔒 Private Projects:     0                          ║
+║                                                              ║
+╠══════════════════════════════════════════════════════════════╣
+║                    💻 COMMIT ACTIVITY                        ║
+╠══════════════════════════════════════════════════════════════╣
+║                                                              ║
+║   🔥 Total Commits:        56                         ║
+║   ⚡ This Week:            0                           ║
+║   📅 Daily Average:        0                           ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+### ⚡ **RECENT COMMIT ACTIVITY**
+
 
 - 🛠️ Building awesome projects...
 
