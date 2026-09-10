@@ -85,7 +85,7 @@ I'm Paramjot Singh — a 2025 B.Tech CSE Graduate passionate about AI and modern
 <div align="center">
 
 ## 📊 **LIVE DEVELOPMENT STATS**
-*Last Updated: Wednesday, September 9, 2026*
+*Last Updated: Thursday, September 10, 2026*
 
 ### 🔢 **CODE METRICS**
 
@@ -102,8 +102,8 @@ I'm Paramjot Singh — a 2025 B.Tech CSE Graduate passionate about AI and modern
 ║                    💻 COMMIT ACTIVITY                        ║
 ╠══════════════════════════════════════════════════════════════╣
 ║                                                              ║
-║   🔥 Total Commits:        60                         ║
-║   ⚡ This Week:            4                           ║
+║   🔥 Total Commits:        61                         ║
+║   ⚡ This Week:            5                           ║
 ║   📅 Daily Average:        0                           ║
 ║                                                              ║
 ╚══════════════════════════════════════════════════════════════╝
@@ -114,10 +114,11 @@ I'm Paramjot Singh — a 2025 B.Tech CSE Graduate passionate about AI and modern
 ### ⚡ **RECENT COMMIT ACTIVITY**
 
 
-- 🚀 **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • fixed a lil mistake • *Sep 8, 06:22 PM*
-- ⚡ **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • updated some stuf • *Sep 8, 06:19 PM*
-- 🔥 **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • made first test and a readme • *Sep 8, 06:08 PM*
-- 💎 **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • begin automation testing • *Sep 8, 05:16 PM*
+- 🚀 **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • learned POM • *Sep 9, 06:32 PM*
+- ⚡ **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • fixed a lil mistake • *Sep 8, 06:22 PM*
+- 🔥 **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • updated some stuf • *Sep 8, 06:19 PM*
+- 💎 **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • made first test and a readme • *Sep 8, 06:08 PM*
+- ✨ **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • begin automation testing • *Sep 8, 05:16 PM*
 
 <div align="center">
 
