@@ -85,7 +85,7 @@ I'm Paramjot Singh — a 2025 B.Tech CSE Graduate passionate about AI and modern
 <div align="center">
 
 ## 📊 **LIVE DEVELOPMENT STATS**
-*Last Updated: Friday, September 11, 2026*
+*Last Updated: Saturday, September 12, 2026*
 
 ### 🔢 **CODE METRICS**
 
@@ -102,8 +102,8 @@ I'm Paramjot Singh — a 2025 B.Tech CSE Graduate passionate about AI and modern
 ║                    💻 COMMIT ACTIVITY                        ║
 ╠══════════════════════════════════════════════════════════════╣
 ║                                                              ║
-║   🔥 Total Commits:        62                         ║
-║   ⚡ This Week:            6                           ║
+║   🔥 Total Commits:        66                         ║
+║   ⚡ This Week:           10                           ║
 ║   📅 Daily Average:        0                           ║
 ║                                                              ║
 ╚══════════════════════════════════════════════════════════════╝
@@ -114,12 +114,14 @@ I'm Paramjot Singh — a 2025 B.Tech CSE Graduate passionate about AI and modern
 ### ⚡ **RECENT COMMIT ACTIVITY**
 
 
-- 🚀 **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • added new test, for cart count • *Sep 10, 05:50 PM*
-- ⚡ **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • learned POM • *Sep 9, 06:32 PM*
-- 🔥 **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • fixed a lil mistake • *Sep 8, 06:22 PM*
-- 💎 **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • updated some stuf • *Sep 8, 06:19 PM*
-- ✨ **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • made first test and a readme • *Sep 8, 06:08 PM*
-- 🎯 **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • begin automation testing • *Sep 8, 05:16 PM*
+- 🚀 **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • bug fix [.tobeVisible() missing] • *Sep 11, 05:26 PM*
+- ⚡ **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • tighten assert • *Sep 11, 05:23 PM*
+- 🔥 **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • cleaned up product names for cart • *Sep 11, 05:20 PM*
+- 💎 **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • added test to check specific products • *Sep 11, 05:17 PM*
+- ✨ **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • added new test, for cart count • *Sep 10, 05:50 PM*
+- 🎯 **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • learned POM • *Sep 9, 06:32 PM*
+- 🌟 **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • fixed a lil mistake • *Sep 8, 06:22 PM*
+- 💫 **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • updated some stuf • *Sep 8, 06:19 PM*
 
 <div align="center">
 
