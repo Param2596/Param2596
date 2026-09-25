@@ -85,7 +85,7 @@ I'm Paramjot Singh — a 2025 B.Tech CSE Graduate passionate about AI and modern
 <div align="center">
 
 ## 📊 **LIVE DEVELOPMENT STATS**
-*Last Updated: Thursday, September 24, 2026*
+*Last Updated: Friday, September 25, 2026*
 
 ### 🔢 **CODE METRICS**
 
@@ -102,8 +102,8 @@ I'm Paramjot Singh — a 2025 B.Tech CSE Graduate passionate about AI and modern
 ║                    💻 COMMIT ACTIVITY                        ║
 ╠══════════════════════════════════════════════════════════════╣
 ║                                                              ║
-║   🔥 Total Commits:        84                         ║
-║   ⚡ This Week:           11                           ║
+║   🔥 Total Commits:        87                         ║
+║   ⚡ This Week:           13                           ║
 ║   📅 Daily Average:        0                           ║
 ║                                                              ║
 ╚══════════════════════════════════════════════════════════════╝
@@ -114,14 +114,14 @@ I'm Paramjot Singh — a 2025 B.Tech CSE Graduate passionate about AI and modern
 ### ⚡ **RECENT COMMIT ACTIVITY**
 
 
-- 🚀 **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • SauceDemo checkout blank field errors • *Sep 23, 05:04 PM*
-- ⚡ **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • SauceDemo checkout finish to complete page • *Sep 23, 04:27 PM*
-- 🔥 **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • SauceDemo checkout info step to overview • *Sep 22, 04:59 PM*
-- 💎 **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • add to cart from product detail • *Sep 22, 04:07 PM*
-- ✨ **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • SauceDemo product detail with waitForURL • *Sep 21, 04:24 PM*
-- 🎯 **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • SauceDemo auth,remove-from-cart,and inventory sort • *Sep 20, 06:03 PM*
-- 🌟 **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • test: SauceDemo auth errors + logout • *Sep 19, 05:43 PM*
-- 💫 **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • fix: match testFixtures.ts casing for Linux • *Sep 18, 05:01 PM*
+- 🚀 **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • SauceDemo cancel checkout preserves cart • *Sep 24, 05:35 PM*
+- ⚡ **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • SauceDemo cancel checkout preserves cart • *Sep 24, 05:34 PM*
+- 🔥 **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • fixtures for cartPage, • *Sep 24, 05:04 PM*
+- 💎 **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • SauceDemo checkout blank field errors • *Sep 23, 05:04 PM*
+- ✨ **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • SauceDemo checkout finish to complete page • *Sep 23, 04:27 PM*
+- 🎯 **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • SauceDemo checkout info step to overview • *Sep 22, 04:59 PM*
+- 🌟 **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • add to cart from product detail • *Sep 22, 04:07 PM*
+- 💫 **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • SauceDemo product detail with waitForURL • *Sep 21, 04:24 PM*
 
 <div align="center">
 
