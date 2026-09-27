@@ -85,7 +85,7 @@ I'm Paramjot Singh — a 2025 B.Tech CSE Graduate passionate about AI and modern
 <div align="center">
 
 ## 📊 **LIVE DEVELOPMENT STATS**
-*Last Updated: Saturday, September 26, 2026*
+*Last Updated: Sunday, September 27, 2026*
 
 ### 🔢 **CODE METRICS**
 
@@ -94,16 +94,16 @@ I'm Paramjot Singh — a 2025 B.Tech CSE Graduate passionate about AI and modern
 ║                    📈 REPOSITORY OVERVIEW                    ║
 ╠══════════════════════════════════════════════════════════════╣
 ║                                                              ║
-║   📊 Total Repositories:  10                          ║
-║   🌍 Public Projects:     10                          ║
+║   📊 Total Repositories:  11                          ║
+║   🌍 Public Projects:     11                          ║
 ║   🔒 Private Projects:     0                          ║
 ║                                                              ║
 ╠══════════════════════════════════════════════════════════════╣
 ║                    💻 COMMIT ACTIVITY                        ║
 ╠══════════════════════════════════════════════════════════════╣
 ║                                                              ║
-║   🔥 Total Commits:        89                         ║
-║   ⚡ This Week:           12                           ║
+║   🔥 Total Commits:        99                         ║
+║   ⚡ This Week:           21                           ║
 ║   📅 Daily Average:        0                           ║
 ║                                                              ║
 ╚══════════════════════════════════════════════════════════════╝
@@ -114,14 +114,14 @@ I'm Paramjot Singh — a 2025 B.Tech CSE Graduate passionate about AI and modern
 ### ⚡ **RECENT COMMIT ACTIVITY**
 
 
-- 🚀 **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • SauceDemo Reset App State clears cart • *Sep 25, 05:33 PM*
-- ⚡ **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** •  SauceDemo inventory with images aborted via • *Sep 25, 05:21 PM*
-- 🔥 **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • SauceDemo cancel checkout preserves cart • *Sep 24, 05:35 PM*
-- 💎 **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • SauceDemo cancel checkout preserves cart • *Sep 24, 05:34 PM*
-- ✨ **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • fixtures for cartPage, • *Sep 24, 05:04 PM*
-- 🎯 **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • SauceDemo checkout blank field errors • *Sep 23, 05:04 PM*
-- 🌟 **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • SauceDemo checkout finish to complete page • *Sep 23, 04:27 PM*
-- 💫 **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • SauceDemo checkout info step to overview • *Sep 22, 04:59 PM*
+- 🚀 **[ai-sdet-portfolio](https://github.com/Param2596/ai-sdet-portfolio)** • new test: Remove Item (From Cart Page) • *Sep 26, 05:49 PM*
+- ⚡ **[ar-remote](https://github.com/Param2596/ar-remote)** • Describe the Fire TV remote bridge the way people search for • *Sep 26, 05:05 PM*
+- 🔥 **[ar-remote](https://github.com/Param2596/ar-remote)** • Speed up held directions and retune the buttons for movies. • *Sep 26, 04:57 PM*
+- 💎 **[ar-remote](https://github.com/Param2596/ar-remote)** • Keep the phone scripts as Unix line endings so Android can r • *Sep 26, 12:34 PM*
+- ✨ **[ar-remote](https://github.com/Param2596/ar-remote)** • Add the phone helper scripts a clone needs to start the remo • *Sep 26, 12:34 PM*
+- 🎯 **[ar-remote](https://github.com/Param2596/ar-remote)** • Describe the setup that actually works, and say VPN instead  • *Sep 26, 12:34 PM*
+- 🌟 **[ar-remote](https://github.com/Param2596/ar-remote)** • Pair the phone over Wi-Fi and warn against public networks. • *Sep 26, 11:49 AM*
+- 💫 **[ar-remote](https://github.com/Param2596/ar-remote)** • Thank Kenney for the mode-switch sound. • *Sep 26, 11:45 AM*
 
 <div align="center">
 
