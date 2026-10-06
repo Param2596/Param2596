@@ -85,7 +85,7 @@ I'm Paramjot Singh — a 2025 B.Tech CSE Graduate passionate about AI and modern
 <div align="center">
 
 ## 📊 **LIVE DEVELOPMENT STATS**
-*Last Updated: Monday, October 5, 2026*
+*Last Updated: Tuesday, October 6, 2026*
 
 ### 🔢 **CODE METRICS**
 
@@ -94,16 +94,16 @@ I'm Paramjot Singh — a 2025 B.Tech CSE Graduate passionate about AI and modern
 ║                    📈 REPOSITORY OVERVIEW                    ║
 ╠══════════════════════════════════════════════════════════════╣
 ║                                                              ║
-║   📊 Total Repositories:  11                          ║
-║   🌍 Public Projects:     11                          ║
+║   📊 Total Repositories:  12                          ║
+║   🌍 Public Projects:     12                          ║
 ║   🔒 Private Projects:     0                          ║
 ║                                                              ║
 ╠══════════════════════════════════════════════════════════════╣
 ║                    💻 COMMIT ACTIVITY                        ║
 ╠══════════════════════════════════════════════════════════════╣
 ║                                                              ║
-║   🔥 Total Commits:       111                         ║
-║   ⚡ This Week:           11                           ║
+║   🔥 Total Commits:       114                         ║
+║   ⚡ This Week:           13                           ║
 ║   📅 Daily Average:        0                           ║
 ║                                                              ║
 ╚══════════════════════════════════════════════════════════════╝
@@ -114,14 +114,14 @@ I'm Paramjot Singh — a 2025 B.Tech CSE Graduate passionate about AI and modern
 ### ⚡ **RECENT COMMIT ACTIVITY**
 
 
-- 🚀 **[playwright-e2e-suite](https://github.com/Param2596/playwright-e2e-suite)** • Add failure summary reporter for failed tests • *Oct 4, 04:59 PM*
-- ⚡ **[playwright-e2e-suite](https://github.com/Param2596/playwright-e2e-suite)** • Merge branch 'master' of https://github.com/Param2596/playwr • *Oct 3, 05:57 PM*
-- 🔥 **[playwright-e2e-suite](https://github.com/Param2596/playwright-e2e-suite)** • updated readme.md • *Oct 3, 05:57 PM*
-- 💎 **[playwright-e2e-suite](https://github.com/Param2596/playwright-e2e-suite)** • Merge pull request #2 from Param2596/cursor/api-tests-projec • *Oct 1, 06:57 PM*
-- ✨ **[playwright-e2e-suite](https://github.com/Param2596/playwright-e2e-suite)** • api: ReqRes Zod contracts + login/404 negatives • *Oct 1, 06:39 PM*
-- 🎯 **[playwright-e2e-suite](https://github.com/Param2596/playwright-e2e-suite)** • added zod api tests • *Oct 1, 05:49 PM*
-- 🌟 **[playwright-e2e-suite](https://github.com/Param2596/playwright-e2e-suite)** • change • *Sep 30, 04:47 PM*
-- 💫 **[firestick-pc-remote](https://github.com/Param2596/firestick-pc-remote)** • Point clone URLs at the renamed firestick-pc-remote GitHub r • *Sep 29, 01:53 PM*
+- 🚀 **[paramjotsingh](https://github.com/Param2596/paramjotsingh)** • Rebuild the terminal layout so the page is not a wall of tex • *Oct 5, 08:31 AM*
+- ⚡ **[paramjotsingh](https://github.com/Param2596/paramjotsingh)** • Make the portfolio readable without JavaScript and full widt • *Oct 5, 08:27 AM*
+- 🔥 **[paramjotsingh](https://github.com/Param2596/paramjotsingh)** • Add a retro-terminal portfolio built from the automation res • *Oct 5, 08:15 AM*
+- 💎 **[playwright-e2e-suite](https://github.com/Param2596/playwright-e2e-suite)** • Add failure summary reporter for failed tests • *Oct 4, 04:59 PM*
+- ✨ **[playwright-e2e-suite](https://github.com/Param2596/playwright-e2e-suite)** • Merge branch 'master' of https://github.com/Param2596/playwr • *Oct 3, 05:57 PM*
+- 🎯 **[playwright-e2e-suite](https://github.com/Param2596/playwright-e2e-suite)** • updated readme.md • *Oct 3, 05:57 PM*
+- 🌟 **[playwright-e2e-suite](https://github.com/Param2596/playwright-e2e-suite)** • Merge pull request #2 from Param2596/cursor/api-tests-projec • *Oct 1, 06:57 PM*
+- 💫 **[playwright-e2e-suite](https://github.com/Param2596/playwright-e2e-suite)** • api: ReqRes Zod contracts + login/404 negatives • *Oct 1, 06:39 PM*
 
 <div align="center">
 
