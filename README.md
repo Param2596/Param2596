@@ -85,7 +85,7 @@ I'm Paramjot Singh — a 2025 B.Tech CSE Graduate passionate about AI and modern
 <div align="center">
 
 ## 📊 **LIVE DEVELOPMENT STATS**
-*Last Updated: Tuesday, October 6, 2026*
+*Last Updated: Wednesday, October 7, 2026*
 
 ### 🔢 **CODE METRICS**
 
@@ -94,16 +94,16 @@ I'm Paramjot Singh — a 2025 B.Tech CSE Graduate passionate about AI and modern
 ║                    📈 REPOSITORY OVERVIEW                    ║
 ╠══════════════════════════════════════════════════════════════╣
 ║                                                              ║
-║   📊 Total Repositories:  12                          ║
-║   🌍 Public Projects:     12                          ║
+║   📊 Total Repositories:  13                          ║
+║   🌍 Public Projects:     13                          ║
 ║   🔒 Private Projects:     0                          ║
 ║                                                              ║
 ╠══════════════════════════════════════════════════════════════╣
 ║                    💻 COMMIT ACTIVITY                        ║
 ╠══════════════════════════════════════════════════════════════╣
 ║                                                              ║
-║   🔥 Total Commits:       114                         ║
-║   ⚡ This Week:           13                           ║
+║   🔥 Total Commits:       124                         ║
+║   ⚡ This Week:           20                           ║
 ║   📅 Daily Average:        0                           ║
 ║                                                              ║
 ╚══════════════════════════════════════════════════════════════╝
@@ -114,14 +114,14 @@ I'm Paramjot Singh — a 2025 B.Tech CSE Graduate passionate about AI and modern
 ### ⚡ **RECENT COMMIT ACTIVITY**
 
 
-- 🚀 **[paramjotsingh](https://github.com/Param2596/paramjotsingh)** • Rebuild the terminal layout so the page is not a wall of tex • *Oct 5, 08:31 AM*
-- ⚡ **[paramjotsingh](https://github.com/Param2596/paramjotsingh)** • Make the portfolio readable without JavaScript and full widt • *Oct 5, 08:27 AM*
-- 🔥 **[paramjotsingh](https://github.com/Param2596/paramjotsingh)** • Add a retro-terminal portfolio built from the automation res • *Oct 5, 08:15 AM*
-- 💎 **[playwright-e2e-suite](https://github.com/Param2596/playwright-e2e-suite)** • Add failure summary reporter for failed tests • *Oct 4, 04:59 PM*
-- ✨ **[playwright-e2e-suite](https://github.com/Param2596/playwright-e2e-suite)** • Merge branch 'master' of https://github.com/Param2596/playwr • *Oct 3, 05:57 PM*
-- 🎯 **[playwright-e2e-suite](https://github.com/Param2596/playwright-e2e-suite)** • updated readme.md • *Oct 3, 05:57 PM*
-- 🌟 **[playwright-e2e-suite](https://github.com/Param2596/playwright-e2e-suite)** • Merge pull request #2 from Param2596/cursor/api-tests-projec • *Oct 1, 06:57 PM*
-- 💫 **[playwright-e2e-suite](https://github.com/Param2596/playwright-e2e-suite)** • api: ReqRes Zod contracts + login/404 negatives • *Oct 1, 06:39 PM*
+- 🚀 **[streamhub-qa-assessment](https://github.com/Param2596/streamhub-qa-assessment)** • Reword the AI reflection. • *Oct 6, 12:32 PM*
+- ⚡ **[streamhub-qa-assessment](https://github.com/Param2596/streamhub-qa-assessment)** • Add project-level points to the AI reflection. • *Oct 6, 12:27 PM*
+- 🔥 **[streamhub-qa-assessment](https://github.com/Param2596/streamhub-qa-assessment)** • Shorten the README and add the Playwright Tests badge. • *Oct 6, 12:16 PM*
+- 💎 **[streamhub-qa-assessment](https://github.com/Param2596/streamhub-qa-assessment)** • Block ad hosts and run the UI tests in CI. • *Oct 6, 12:08 PM*
+- ✨ **[streamhub-qa-assessment](https://github.com/Param2596/streamhub-qa-assessment)** • Open the Cucumber reports as rendered pages. • *Oct 6, 11:48 AM*
+- 🎯 **[streamhub-qa-assessment](https://github.com/Param2596/streamhub-qa-assessment)** • Record the later corrections in the AI reflection. • *Oct 6, 11:27 AM*
+- 🌟 **[streamhub-qa-assessment](https://github.com/Param2596/streamhub-qa-assessment)** • Capture the full bar chart from the page object and cover co • *Oct 6, 11:08 AM*
+- 💫 **[streamhub-qa-assessment](https://github.com/Param2596/streamhub-qa-assessment)** • Show the candidate and SQL results clearly, and require Node • *Oct 6, 10:38 AM*
 
 <div align="center">
 
