@@ -85,7 +85,7 @@ I'm Paramjot Singh — a 2025 B.Tech CSE Graduate passionate about AI and modern
 <div align="center">
 
 ## 📊 **LIVE DEVELOPMENT STATS**
-*Last Updated: Thursday, October 8, 2026*
+*Last Updated: Friday, October 9, 2026*
 
 ### 🔢 **CODE METRICS**
 
@@ -102,8 +102,8 @@ I'm Paramjot Singh — a 2025 B.Tech CSE Graduate passionate about AI and modern
 ║                    💻 COMMIT ACTIVITY                        ║
 ╠══════════════════════════════════════════════════════════════╣
 ║                                                              ║
-║   🔥 Total Commits:       125                         ║
-║   ⚡ This Week:           20                           ║
+║   🔥 Total Commits:       126                         ║
+║   ⚡ This Week:           18                           ║
 ║   📅 Daily Average:        0                           ║
 ║                                                              ║
 ╚══════════════════════════════════════════════════════════════╝
@@ -114,14 +114,14 @@ I'm Paramjot Singh — a 2025 B.Tech CSE Graduate passionate about AI and modern
 ### ⚡ **RECENT COMMIT ACTIVITY**
 
 
-- 🚀 **[paramjotsingh](https://github.com/Param2596/paramjotsingh)** • Present the portfolio as a software engineer showcase with c • *Oct 7, 05:39 PM*
-- ⚡ **[streamhub-qa-assessment](https://github.com/Param2596/streamhub-qa-assessment)** • Reword the AI reflection. • *Oct 6, 12:32 PM*
-- 🔥 **[streamhub-qa-assessment](https://github.com/Param2596/streamhub-qa-assessment)** • Add project-level points to the AI reflection. • *Oct 6, 12:27 PM*
-- 💎 **[streamhub-qa-assessment](https://github.com/Param2596/streamhub-qa-assessment)** • Shorten the README and add the Playwright Tests badge. • *Oct 6, 12:16 PM*
-- ✨ **[streamhub-qa-assessment](https://github.com/Param2596/streamhub-qa-assessment)** • Block ad hosts and run the UI tests in CI. • *Oct 6, 12:08 PM*
-- 🎯 **[streamhub-qa-assessment](https://github.com/Param2596/streamhub-qa-assessment)** • Open the Cucumber reports as rendered pages. • *Oct 6, 11:48 AM*
-- 🌟 **[streamhub-qa-assessment](https://github.com/Param2596/streamhub-qa-assessment)** • Record the later corrections in the AI reflection. • *Oct 6, 11:27 AM*
-- 💫 **[streamhub-qa-assessment](https://github.com/Param2596/streamhub-qa-assessment)** • Capture the full bar chart from the page object and cover co • *Oct 6, 11:08 AM*
+- 🚀 **[firestick-pc-remote](https://github.com/Param2596/firestick-pc-remote)** • Add a TV home dashboard and keep the Fire Remote session ali • *Oct 8, 02:04 PM*
+- ⚡ **[paramjotsingh](https://github.com/Param2596/paramjotsingh)** • Present the portfolio as a software engineer showcase with c • *Oct 7, 05:39 PM*
+- 🔥 **[streamhub-qa-assessment](https://github.com/Param2596/streamhub-qa-assessment)** • Reword the AI reflection. • *Oct 6, 12:32 PM*
+- 💎 **[streamhub-qa-assessment](https://github.com/Param2596/streamhub-qa-assessment)** • Add project-level points to the AI reflection. • *Oct 6, 12:27 PM*
+- ✨ **[streamhub-qa-assessment](https://github.com/Param2596/streamhub-qa-assessment)** • Shorten the README and add the Playwright Tests badge. • *Oct 6, 12:16 PM*
+- 🎯 **[streamhub-qa-assessment](https://github.com/Param2596/streamhub-qa-assessment)** • Block ad hosts and run the UI tests in CI. • *Oct 6, 12:08 PM*
+- 🌟 **[streamhub-qa-assessment](https://github.com/Param2596/streamhub-qa-assessment)** • Open the Cucumber reports as rendered pages. • *Oct 6, 11:48 AM*
+- 💫 **[streamhub-qa-assessment](https://github.com/Param2596/streamhub-qa-assessment)** • Record the later corrections in the AI reflection. • *Oct 6, 11:27 AM*
 
 <div align="center">
 
